@@ -34,5 +34,5 @@ Displays equation (as much as will fit) and fit parameters in the userCalc.
 
 Limitations:
 - Only works with one fit at a time
-- Similarly, longer equations may not be fully displayed in userCalc
+- Longer equations may not be fully displayed in userCalc
 - Limitations on f parameter for slit function fitting means there may be cases where fit is not great
