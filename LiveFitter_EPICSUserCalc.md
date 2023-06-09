@@ -33,6 +33,7 @@ Displays equation (as much as will fit) and fit parameters in the userCalc.
 ![userCalcdisplay](https://user-images.githubusercontent.com/106117997/198303930-042c4d0c-6e64-4d2e-a4c6-2285a120eeb1.png)
 
 Limitations:
+- Frame rate pretty limited (will likely not keep up with very quickly updating images - slit function slower than others as well because of the custom fitting)
 - Only works with one fit at a time
 - Longer equations may not be fully displayed in userCalc
 - Limitations on f parameter for slit function fitting means there may be cases where fit is not great
