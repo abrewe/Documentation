@@ -1,10 +1,14 @@
 ## **LiveFitter_EPICSUserCalc.java**
+https://github.com/areaDetector/ADViewers/pull/23
 
 An ImageJ plugin for displaying a live fit in a profile plot. Includes userCalc functionality, streaming parameter values for futher calculation and/or record keeping. To use, choose fit function, color of the line, a secondary fill color, the line width, symbol, plot label if desired, and visibility (only uncheck if you don't want to have the fit line). Then draw a line or rectangle, and select draw fit.
+![livefittingplugin](https://user-images.githubusercontent.com/106117997/198303604-a3a6a4d1-68a5-455c-b956-b14bbb21937c.png)
+
+![Screenshot from 2023-06-09 13-13-29](https://github.com/abrewe/Documentation/assets/106117997/933022ad-25d6-42c5-bc7e-b319e850c455)
 
 If it gives you an error: "Line or rectangular selection required" you may have selected another image window in between drawing the line cut and trying to display the fit. You can change fit settings in between drawing the line cut and displaying the fit, but not another image window/plot. Just click on the image you want to fit from and try displaying fit again.
 
-![livefittingplugin](https://user-images.githubusercontent.com/106117997/198303604-a3a6a4d1-68a5-455c-b956-b14bbb21937c.png)
+![Lineselectionerror](https://github.com/abrewe/Documentation/assets/106117997/32696719-a53a-439a-a079-2c43da34d84e)
 
 The Fit Parameters and Fit Equation are displayed above the profile plot.
 Includes the option to send and display fit parameters into a userCalc. 
@@ -32,6 +36,7 @@ Displays equation (as much as will fit) and fit parameters in the userCalc.
 ![userCalcdisplay](https://user-images.githubusercontent.com/106117997/198303930-042c4d0c-6e64-4d2e-a4c6-2285a120eeb1.png)
 
 Limitations:
+- Frame rate pretty limited (will likely not keep up with very quickly updating images - slit function slower than others as well because of the custom fitting)
 - Only works with one fit at a time
-- Similarly, longer equations may not be fully displayed in userCalc
+- Longer equations may not be fully displayed in userCalc
 - Limitations on f parameter for slit function fitting means there may be cases where fit is not great
