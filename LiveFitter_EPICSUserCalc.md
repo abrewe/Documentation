@@ -2,6 +2,7 @@
 
 An ImageJ plugin for displaying a live fit in a profile plot. Includes userCalc functionality, streaming parameter values for futher calculation and/or record keeping. To use, choose fit function, color of the line, a secondary fill color, the line width, symbol, plot label if desired, and visibility (only uncheck if you don't want to have the fit line). Then draw a line or rectangle, and select draw fit.
 ![livefittingplugin](https://user-images.githubusercontent.com/106117997/198303604-a3a6a4d1-68a5-455c-b956-b14bbb21937c.png)
+![Updatedversion](https://github.com/abrewe/Documentation/assets/106117997/c8dcb109-4237-43c5-87ab-fcb829dc9562)
 
 If it gives you an error: "Line or rectangular selection required" you may have selected another image window in between drawing the line cut and trying to display the fit. You can change fit settings in between drawing the line cut and displaying the fit, but not another image window/plot. Just click on the image you want to fit from and try displaying fit again.
 
