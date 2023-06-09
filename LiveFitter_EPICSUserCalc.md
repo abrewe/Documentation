@@ -1,4 +1,5 @@
 ## **LiveFitter_EPICSUserCalc.java**
+https://github.com/areaDetector/ADViewers/pull/23
 
 An ImageJ plugin for displaying a live fit in a profile plot. Includes userCalc functionality, streaming parameter values for futher calculation and/or record keeping. To use, choose fit function, color of the line, a secondary fill color, the line width, symbol, plot label if desired, and visibility (only uncheck if you don't want to have the fit line). Then draw a line or rectangle, and select draw fit.
 ![livefittingplugin](https://user-images.githubusercontent.com/106117997/198303604-a3a6a4d1-68a5-455c-b956-b14bbb21937c.png)
