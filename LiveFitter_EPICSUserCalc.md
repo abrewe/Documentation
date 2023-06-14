@@ -40,3 +40,4 @@ Limitations:
 - Only works with one fit at a time
 - Longer equations may not be fully displayed in userCalc
 - Limitations on f parameter for slit function fitting means there may be cases where fit is not great
+- Better fitting performace for positive slit function than for negative.
